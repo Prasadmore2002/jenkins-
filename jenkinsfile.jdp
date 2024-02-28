@@ -5,6 +5,7 @@ pipeline {
             steps {
                 git 'https://github.com/Prasadmore2002/studentapp-ui.git'
         }
+    }
         stage('Build'){
             steps {
                  echo 'build success'
