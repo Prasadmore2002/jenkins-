@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull'){
             steps {
-                git 'https://github.com/Prasadmore2002/devops-fullstack-app.git'
+                git 'https://github.com/Prasadmore2002/jenkins-.git'
         }
     }
         stage('Build'){
